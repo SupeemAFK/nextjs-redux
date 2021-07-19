@@ -1,0 +1,91 @@
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+  padding: 0 2rem;
+
+  height: 140px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgWrapper {
+  width: 150px;
+  height: 150px;
+
+  position: relative;
+
+  cursor: pointer;
+}
+
+.userInfo {
+  width: 12.5rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 50%;
+}
+
+.btnContainer > button {
+  background: none;
+  border: none;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+  font-size: 2rem;
+}
+
+.btnContainer > button:hover {
+  opacity: 0.5;
+}
+
+.userImageWrapper {
+  border-radius: 50%;
+
+  width: 50px;
+  height: 50px;
+
+  position: relative;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.userImageWrapper:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 540px) {
+  .imgWrapper {
+    width: 120px;
+    height: 120px;
+  }
+
+  .userInfo {
+    width: 8rem;
+  }
+
+  .btnContainer > button {
+    font-size: 1.5rem;
+  }
+
+  .userImageWrapper {
+    width: 40px;
+    height: 40px;
+  }
+}

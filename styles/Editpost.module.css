@@ -1,0 +1,49 @@
+.editPost {
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btnContainer {
+  width: 15rem;
+
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5rem;
+
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+
+  font-size: 1.5rem;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.update {
+  background-color: #10b981;
+}
+
+.goBack {
+  background-color: #ef4444;
+}

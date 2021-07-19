@@ -1,0 +1,36 @@
+.inputContainer {
+  display: flex;
+}
+
+.inputLabel {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0.5rem;
+}
+
+.input {
+  width: 700px;
+  height: 30px;
+}
+
+.input:focus {
+  outline: none;
+  border: 1.5px solid #2563eb;
+}
+
+@media (max-width: 1366px) {
+  .input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .input {
+    width: 100%;
+  }
+
+  .inputContainer {
+    flex-direction: column;
+  }
+}
